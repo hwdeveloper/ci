@@ -49,6 +49,14 @@ function hrefToData(){
 
 }
 
+	function Data(){
+		var url = "<?php echo site_url('DataController')?>";
+
+
+		window.location.href=url;
+
+	}
+
 </script>
 
 </head>
@@ -64,6 +72,7 @@ function hrefToData(){
 			<code onclick="optionUpload()">图片上传</code>
 			<code onclick="formToData()">表单提交数据</code>
 			<code onclick="hrefToData()">href提交数据</code>
+			<code onclick="Data()">日期</code>
 		
 		</div>
 	</div>
